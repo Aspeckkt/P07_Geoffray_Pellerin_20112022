@@ -10,9 +10,9 @@ Ils vous est néccésaires d'installer les plugins et dépendance suivantes pour
 
 Instalation complète de React, sans certains plugins et dépendance, mais l'essentiel est ici.
 
-### `npm i react-router`
+### `npm i react-router-dom@6`
 
-Plugin permetant d'utiliser les routes d'uttilisation react { Routes, route} et tous çà.... "from React;" !
+Plugin permetant d'utiliser les routes d'uttilisation react { Routes, route} et tous çà.... "from React"; !
 
 ### `npm i axios`
 
@@ -47,5 +47,17 @@ Pars défaut, l'application ce lanceras automatiquement, si ce n'est pas le cas 
 * site oppérationnel et fidèle à la maquettes demander.
 
 *********************************************************************************
+
+# `Troisieme Commit`
+
+## `le 23/11/2022`
+
+### `Commentaire et mise en place pour soutenance`
+
+* Création du fichier PDF relatif au projet pour la soutenance
+* Ajout de commentaires et dernière vérification du site 
+* Projet complet et répondant au diffèrentes contraintes techniques.
+
+********************************************************************************* 
 
 **Commentaire: Si vous êtes `Etudiant`, je vous conseille !FORTEMENT! de ne pas copier/coller et de faire de vous même le projet, en sois il n'est ni long, ni compliquer !**
