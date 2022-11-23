@@ -37,7 +37,14 @@ Pars défaut, l'application ce lanceras automatiquement, si ce n'est pas le cas 
 
 # `Deuxieme Commit`
 
-## `INC`
+## `le 22/11/2022`
+
+### `Feuille de style et page d'erreur`
+
+* Creation des diffèrents styles pour les composants, mis en place d'une version desktop et mobile représentative du projet 
+* Ajout d'une page d'erreur si l'utilisateur essaye de rejoindre une page inexistante ou incorrect.
+* creation des diffèrents icones pour `android` et `ios` 
+* site oppérationnel et fidèle à la maquettes demander.
 
 *********************************************************************************
 
