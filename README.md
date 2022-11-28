@@ -1,43 +1,76 @@
-# Getting Started with Create React App
+# Kasa Application de location d'appartement
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est crée à l'aide de react [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Prèrequis
 
-In the project directory, you can run:
+Ils vous est néccésaires d'installer les plugins et dépendance suivantes pour faire tourner le projet :
+
+### `npx create-react-app "VotreDossier"`
+
+Instalation complète de React, sans certains plugins et dépendance, mais l'essentiel est ici.
+
+### `npm i react-router-dom@6`
+
+Plugin permetant d'utiliser les routes d'uttilisation react { Routes, route} et tous çà.... "from React"; !
+
+### `npm i node sass`
+
+Dépendance tiers permettants de rècuperrer les promesses d'informations d'une API; fonctionnent comme la fonction "fetch" mais requiere des fichier AJAX (.jsx) et non (.js) pour répondre aux diffèrents appels.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pars défaut, l'application ce lanceras automatiquement, si ce n'est pas le cas rendez-vous ici [http://localhost:3000] afin de consulter depuis votre navigateur.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*********************************************************************************
 
-### `npm test`
+# `Premier Commit`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## `le 20/11/2022`
 
-### `npm run build`
+### `Application et compossant `
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Creation de l'application react, `npx, npm etc...` gestion des diffèrents compossants de la page `Acceuil` et de la page `a propos`
+* Ajout  des compossants réutilissable pour chaque appartements; l'`api d'amazon` étant situer dans notre dossier `public`, chaque page ce ressemblant un seul compossants est néccesaires pour tous. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*********************************************************************************
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# `Deuxieme Commit`
 
-### `npm run eject`
+## `le 22/11/2022`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `Feuille de style et page d'erreur`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Creation des diffèrents styles pour les composants, mis en place d'une version desktop et mobile représentative du projet. 
+* Ajout d'une page d'erreur si l'utilisateur essaye de rejoindre une page inexistante ou incorrect.
+* creation des diffèrents icones pour `android` et `ios`.
+* site oppérationnel et fidèle à la maquettes demander.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*********************************************************************************
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# `Troisieme Commit`
+
+## `le 23/11/2022`
+
+### `Commentaire et mise en place pour soutenance`
+
+* Création du fichier PDF relatif au projet pour la soutenance.
+* Ajout de commentaires et dernière vérification du site.
+* Projet complet et répondant au diffèrentes contraintes techniques.
+
+********************************************************************************* 
+
+# `Quatrième Commit`
+
+## `le 28/11/2022`
+
+### `Passage de Axios à Fetch pour l'appel d'api`
+
+* Comme les contraintes technique l'indiquais j'ai modifier, mon code afin d'etre dans les normes pour la soutenance.
+* suppresion de lignes inutiles et ajout de commentaires supplèmentaires.
+
+**Commentaire: Si vous êtes `Etudiant`, je vous conseille !FORTEMENT! de ne pas copier/coller et de faire de vous même le projet, en sois il n'est ni long, ni compliquer !**
+
 
 ## Learn More
 
