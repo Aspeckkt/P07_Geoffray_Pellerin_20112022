@@ -14,7 +14,7 @@ Instalation complète de React, sans certains plugins et dépendance, mais l'ess
 
 Plugin permetant d'utiliser les routes d'uttilisation react { Routes, route} et tous çà.... "from React"; !
 
-### `npm i node sass`
+### `npm i node-sass`
 
 Dépendance essentiels au bon fonctionnement de l'app.
 
