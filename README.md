@@ -18,7 +18,7 @@ Plugin permetant d'utiliser les routes d'uttilisation react { Routes, route} et 
 
 Dépendance tiers permettants de rècuperrer les promesses d'informations d'une API; fonctionnent comme la fonction "fetch" mais requiere des fichier AJAX (.jsx) et non (.js) pour répondre aux diffèrents appels.
 
-### `npm i node-sass`
+### `npm i sass`
 
 Dépendance essentiels au bon fonctionnement de l'app.
 
