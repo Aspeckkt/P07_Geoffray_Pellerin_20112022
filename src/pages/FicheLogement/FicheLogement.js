@@ -19,7 +19,7 @@ export default function FicheLogement() {
 				return response.json()
 			})
 			.then((data) => {
-				const appart = data.find((appart) => appart.id === id);
+				const appart = data.find((appart) => appart.id === id); // Constante qui reprend les éléments du tableaux des appartements.
 				if (appart) {
 					setPickedAppart(appart);
 
