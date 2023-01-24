@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, useNavigate  } from "react-router-dom";
+import { useParams, useNavigate  } from "react-router-dom"; // ont peut également utiliser les Hook useHistory pour les version antèrieur à la 6
 import Carrousel from "../../components/Carrousel/Carrousel";
 import Collapse from "../../components/Collapse/Collapse";
 import Host from "../../components/Host/Host";
