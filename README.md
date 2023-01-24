@@ -77,8 +77,8 @@ Pars défaut, l'application ce lanceras automatiquement, si ce n'est pas le cas 
 
 ### `Ajout d'Hook de navigation`
 
-* Afin de corriger l'erreur de boucle présente dans mon code, j'y ai ajouter un hook et crée une constante reprenant les paramètres des appartements.
-* Navigate, qui permet de naviger comme sont nom l'indique vers une page définie à était ajouter de corrige l'erreur de boucle indiquer.
+* Afin de corriger l'erreur de boucle présente dans mon code, j'y ai ajouter un hook de navigation et crée une constante reprenant les paramètres des appartements.
+* Navigate, qui permet de naviger comme sont nom l'indique vers une page définie à était ajouter afin de corrige l'erreur de boucle indiquer.
 
 **Commentaire: Si vous êtes `Etudiant`, je vous conseille !FORTEMENT! de ne pas copier/coller et de faire de vous même le projet, en sois il n'est ni long, ni compliquer !**
 
