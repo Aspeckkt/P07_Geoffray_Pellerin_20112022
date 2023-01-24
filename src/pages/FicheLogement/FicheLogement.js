@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate  } from "react-router-dom";
 import Carrousel from "../../components/Carrousel/Carrousel";
 import Collapse from "../../components/Collapse/Collapse";
 import Host from "../../components/Host/Host";
@@ -13,19 +13,23 @@ export default function FicheLogement() {
 
 	let { id } = useParams();
 
-	useEffect(function () {
+		useEffect(() => {
 		fetch('/logements.json')
 			.then((response) => {
 				return response.json()
 			})
 			.then((data) => {
-				for (let i = 0; i < data.length; i++) {
-					if (data[i].id === id) {
-						setPickedAppart(data[i])
-					}
+				const appart = data.find((appart) => appart.id === id);
+				if (appart) {
+					setPickedAppart(appart);
+
+				} else {
+					navigate('/404');
 				}
 			})
-	});
+		// eslint-disable-next-line
+	}, []);
+	
 	const slidePics = pickedAppart && pickedAppart.pictures;
 	const tags = pickedAppart && pickedAppart.tags;
 	const equipments = pickedAppart && pickedAppart.equipments;
